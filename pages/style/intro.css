@@ -3,22 +3,25 @@ body{
 }
 
 h1{
-    font-size: 3rem;
+    font-size: 2rem;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: rgba(12, 6, 6, 0.658);
+    color: rgba(12, 6, 6, 0.842);
     font-variant: small-caps;
 }
 
 h2{
     font-size: 1.2 rem;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
 }
 
 h3{
     font-size: 1rem;
     text-transform: uppercase;
     text-align: center;
-    text-decoration:  overline;
+    text-decoration:  underline;
+    letter-spacing: 5px;
+    font-weight: bold;
 }
 
 p{
@@ -35,5 +38,8 @@ p{
 
 a{
     text-decoration: none;
+    font-variant: normal;
+    text-transform: uppercase;
     font-size: 1rem;
+    background-color: gray;
 }
