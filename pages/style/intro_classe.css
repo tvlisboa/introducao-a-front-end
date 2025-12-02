@@ -1,0 +1,23 @@
+body{
+    background-color: greenyellow;
+    font-size: 2rem;
+}
+
+h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 2px;
+}
+
+.paragrafo{
+    background-color: gray;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+#paragrafo_id{
+    background-color: rebeccapurple;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    padding: 20px;
+    border-radius: 20px;
+}
