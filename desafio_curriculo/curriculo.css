@@ -1,23 +1,24 @@
 body{
-    background-color: rgba(207, 195, 195, 0.692);
+    background-color: rgba(202, 196, 196, 0.692);
+    color: #13111144;
+    width: 80%;
+    margin: auto;
+    padding: 15px;
+}
+
+.informacoespessoais{
+    font-size: 12px;
 }
 
 h1{
+    background-color: rgb(201, 166, 233);
+    border-bottom: 2px solid blue;
+    color: rgb(0, 0, 0);
     font-size: 36px;
     text-align: center;
-    color: blue;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: rgb(201, 166, 233);
     margin: 20px;
     padding: 15px;
-}
-
-.subtitles{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: rgb(201, 166, 233);
-    margin: 20px;
-    padding: 15px;
-    color: blue;
 }
 
 .dadospessoais{
@@ -27,7 +28,62 @@ h1{
     font-weight: bold;
 }
 
+.subtitles{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(201, 166, 233);
+    border-bottom: 2px solid blue;
+    margin: 20px;
+    padding: 15px;
+    color: blue;
+}
+
+
 .telefonesuteis{
+    
+
+}
+
+.linksuteis{
+
+}
+
+.dadospessoais{
+
+}
+
+.objetivoprofissional{
+
+}
+
+.resumoprofissional{
+
+}
+
+.formacaoacademica{
+
+}
+
+.cursosextras{
+
+}
+
+.competencias{
+
+}
+
+.certificacoes{
+
+}
+
+.atividadesprofissionais{
+
+}
+
+.empresas{
+
+}
+
+.informacoesextras{
 
 }
 
