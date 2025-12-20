@@ -55,28 +55,6 @@ h1{
 
 }
 
-.menu{
-    text-align: right;
-}
-
-.menu li{
-    list-style: none;
-    display: inline-block;
-    padding: 0px;
-}
-
-.menu a{
-    background-color: #717271d0;
-    padding: 15px;
-    display: inline-block;
-}
-
-.menu a:hover{
-    background-color: orange;
-    color: whitesmoke;
-    text-decoration: none;
-}
-
 .dadospessoais{
 
 }
