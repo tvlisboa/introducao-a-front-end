@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introducao a imagens</title>
+
+    <style>
+        body {
+            font-size: 20px;
+            font-family: sans-serif;
+            width: 700px;
+            margin: auto;
+
+            background-image: url(./imgs/bg.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+        }
+
+        h1 {
+            text-align: center;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+
+        h2 {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+        h3 {
+            text-align: center;
+            justify-content: center;
+            font-size: 1rem;
+        }
+
+        h4 {
+            text-align: center;
+            justify-content: center;
+            font-size: 1rem;
+        }
+
+        p {
+            line-height: 1.3;
+            font-size: 1rem;
+            text-align: justify;
+        }
+
+        .imagens {
+            display: flex;
+            width: 400px;
+        }
+
+        .img-logo-png {}
+
+        .logohtml {
+            float: left;
+        }
+
+        .logocss3 {
+            float: right;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 class="titulo-principal">Trabalhando com imagens</h1>
+
+    <h2 class="subtitle">Imagens vetorias e imagens BitMap</h2>
+
+    <div class="imagens">
+        <!--Imagens em PNG perde-se qualidade e em SVG mantém a qualidade-->
+        <img src="./imgs/logo_ser-frontend-ico.svg " class="img-logo-cvg" alt="img-logo-pagina-svg">
+        <img src="./imgs/logo_ser-frontend-ico.png" class="img-logo-png" alt="img-logo-pagina-png">
+    </div>
+
+    <h2 class="subtitle">Imagens transparentes</h2>
+    <div class=" imagens">
+        <img src="./imgs/logo_ser-frontend-ico-transparente.gif" alt="img-com-fundo-transparente-gif" class="img-gif">
+        <img src="imgs/logo_ser-frontend-ico-transparente.png" alt="img-com-fundo-transparente-png" class="img-png">
+    </div>
+
+    <div class="img-animated">
+        <h2 class="subtitle">Imagens animadas</h2>
+        <img src=" ./imgs/walk.gif" alt="img-gif-animated" class="img-animated-woman">
+    </div>
+
+    <!--Utilizacao do float com imagens-->
+    <div class="float">
+        <h2 class="subtitle">Utilizacao do float</h2>
+        <img src="./imgs/html5.png" class="logohtml" alt="logo-html-5">
+        <!--Exemplo de paragrafos-->
+        <p class="paragrafos">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus, inventore! Ut illum nostrum
+            commodi
+            sed ratione optio unde nesciunt aliquid, nisi beatae quibusdam consectetur atque deleniti architecto
+            itaque
+            quos enim.
+        </p>
+        <p class="paragrafos">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere aspernatur quisquam quae molestias
+            repellendus fuga! Neque quae deserunt reprehenderit maiores voluptates voluptatem in nisi fugit eius
+            totam
+            dolorem temporibus excepturi quidem iusto consequuntur numquam, atque veniam ducimus? Hic, optio
+            deserunt!
+            Minima eius, ea est, impedit, hic quidem a eligendi assumenda officia tenetur earum iure repellendus
+            accusantium doloribus esse tempore? Aut laudantium deleniti est, obcaecati praesentium corporis
+            molestiae
+            nulla eveniet beatae quae, maxime sit perspiciatis illo quisquam reprehenderit iure! Sit, voluptatibus.
+        </p>
+        <img src="./imgs/css3.png" class="logocss3" alt="logo-css-3">
+        <!--Exemplo de paragrafos-->
+        <p class="paragrafos">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus, inventore! Ut illum nostrum
+            commodi
+            sed ratione optio unde nesciunt aliquid, nisi beatae quibusdam consectetur atque deleniti architecto
+            itaque
+            quos enim.
+        </p>
+        <p class="paragrafos">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere aspernatur quisquam quae molestias
+            repellendus fuga! Neque quae deserunt reprehenderit maiores voluptates voluptatem in nisi fugit eius
+            totam
+            dolorem temporibus excepturi quidem iusto consequuntur numquam, atque veniam ducimus? Hic, optio
+            deserunt!
+            Minima eius, ea est, impedit, hic quidem a eligendi assumenda officia tenetur earum iure repellendus
+            accusantium doloribus esse tempore? Aut laudantium deleniti est, obcaecati praesentium corporis
+            molestiae
+            nulla eveniet beatae quae, maxime sit perspiciatis illo quisquam reprehenderit iure! Sit, voluptatibus.
+        </p>
+    </div>
+
+</body>
+<footer>
+    <h4 class="rodape-title">Exemplo de rodapé</h4>
+</footer>
+
+</html>
